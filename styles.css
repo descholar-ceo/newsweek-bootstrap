@@ -1,5 +1,6 @@
 :root {
   --gray: rgba(3, 3, 3, 0.4);
+  --black: #000;
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
@@ -7,6 +8,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: #f4f5f6;
+  font-family: var(--roboto);
 }
 
 .font-sm {
@@ -15,6 +17,10 @@ body {
 
 .gray {
   color: var(--gray);
+}
+
+.black {
+  color: var(--black);
 }
 
 img[alt="user"] {
@@ -28,7 +34,7 @@ img[alt="menu"] {
 
 .small-title {
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .news-title {
@@ -38,9 +44,20 @@ img[alt="menu"] {
   font-weight: 700;
 }
 
+.news-title a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.news-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .news-summary {
   font-size: 12.5px;
   color: #444;
+  font-weight: 400;
 }
 
 .img-container {
@@ -56,4 +73,34 @@ img[alt="menu"] {
   color: rgb(255, 0, 0);
   font-family: var(--roboto);
   font-weight: 700;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+}
+
+.h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.h3 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.h3 a:hover {
+  color: #f92859;
+}
+
+.h3 span {
+  font-size: 14px;
 }
