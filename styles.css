@@ -50,6 +50,11 @@ img[alt="menu"] {
   text-decoration: none;
 }
 
+.h3 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
 .news-title a:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -91,11 +96,6 @@ img[alt="menu"] {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-}
-
-.h3 a {
-  color: var(--black);
-  text-decoration: none;
 }
 
 .h3 a:hover {
