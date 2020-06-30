@@ -3,10 +3,10 @@
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
-
 body {
   height: 100%;
   width: 100%;
+  background-color: #f4f5f6;
 }
 
 .font-sm {
@@ -35,5 +35,25 @@ img[alt="menu"] {
   font-family: var(--roboto);
   font-size: 22px;
   line-height: 24px;
+  font-weight: 700;
+}
+
+.news-summary {
+  font-size: 12.5px;
+  color: #444;
+}
+
+.img-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  color: rgb(255, 0, 0);
+  font-family: var(--roboto);
   font-weight: 700;
 }
