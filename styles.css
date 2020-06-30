@@ -1,6 +1,7 @@
 :root {
   --gray: rgba(3, 3, 3, 0.4);
   --black: #000;
+  --white: rgb(0, 0, 0);
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
@@ -103,4 +104,26 @@ img[alt="menu"] {
 
 .h3 span {
   font-size: 14px;
+}
+
+.debate-section-top {
+  border-top: 4px solid #f92859;
+  border-bottom: 3px double #d9d9d9;
+}
+
+.debate-section-bottom {
+  border-bottom: 4px solid #1c87fb;
+}
+
+.text-gray-light {
+  color: #555;
+}
+
+.vs-btn {
+  height: 30px;
+  width: 30px;
+  background-color: var(--black);
+  color: var(--white);
+  margin-top: -1rem;
+  margin-left: 40%;
 }
