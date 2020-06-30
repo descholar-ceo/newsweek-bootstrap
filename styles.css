@@ -5,6 +5,10 @@
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -135,3 +139,30 @@ img[alt="menu"] {
   top: -1.2rem;
 }
 
+.signup-container {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  width: 300px;
+  font-family: var(--roboto);
+  font-size: 19px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.signup-container input {
+  outline: none;
+}
+
+.signgup-img {
+  height: 30px;
+  width: 30px;
+}
+
+.signup-container span:first-child {
+  background-color: rgb(255, 0, 0);
+}
+
+button[name="signup-btn"] {
+  background-color: rgb(255, 0, 0);
+  font-weight: bold;
+}
