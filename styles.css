@@ -6,3 +6,9 @@ body {
 .font-sm {
   font-size: 11px;
 }
+
+img[alt="user"],
+img[alt="menu"] {
+  width: 2rem;
+  height: 2rem;
+}

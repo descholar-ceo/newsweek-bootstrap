@@ -11,23 +11,25 @@
 </head>
 
 <body>
-    <div class="container p-0">
+    <div class="container-fluid p-0">
 
         <header>
             <nav class="navbar container-fluid bg-danger">
-                <div class="row d-flex justify-content-start">
+                <div class="row d-flex justify-content-between">
                     <div class="col-4">
-                        <img src="./assets/logo.svg" alt="logo" />
+                        <img class="img-fluid" src="./assets/logo.svg" alt="logo" />
                     </div>
-                    <div class="col-2">
-                        <img class="w-25" src="./assets/user-icon.svg" alt="user">
-                    </div>
-                    <div class="col-8">
-                        <a href="#"
-                        class="btn btn-warning btn-sm font-weight-bold font-sm" 
-                        tabindex="-1" 
-                        role="button" 
-                        aria-disabled="true">UNLIMITED FREE TRIAL ></a>
+                    <div class="row col-8">
+                        <div class="col-2">
+                            <img src="./assets/user-icon.svg" alt="user">
+                        </div>
+                        <div class="col-8 d-flex align-items-center justify-content-end">
+                            <a href="#" class="btn btn-warning btn-sm font-weight-bold font-sm rounded-pill" tabindex="-1"
+                                role="button" aria-disabled="true">UNLIMITED FREE TRIAL ></a>
+                        </div>
+                        <div class="col-2">
+                            <img class="img-fluid w-100" src="./assets/open-menu.svg" alt="menu">
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -42,4 +44,5 @@
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
