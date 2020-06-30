@@ -61,8 +61,8 @@ img[alt="menu"] {
 }
 
 .news-summary {
-  font-size: 12.5px;
-  color: #444;
+  font-size: 13px;
+  color: #333;
   font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ img[alt="menu"] {
 .text-overlay {
   position: absolute;
   bottom: 0;
-  left: 0.6rem;
+  left: 0;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0.5rem 1rem;
   color: rgb(255, 0, 0);
@@ -120,10 +120,18 @@ img[alt="menu"] {
 }
 
 .vs-btn {
-  height: 30px;
-  width: 30px;
-  background-color: var(--black);
-  color: var(--white);
-  margin-top: -1rem;
-  margin-left: 40%;
+  position: relative;
+  text-align: center;
 }
+
+.vs-btn p {
+  position: absolute;
+  background-color: var(--black);
+  color: #ccc;
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  top: -1.2rem;
+}
+
