@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <title>News week</title>
 </head>
 
@@ -16,24 +17,44 @@
         <header>
             <nav class="navbar container-fluid bg-danger">
                 <div class="row d-flex justify-content-between">
-                    <div class="col-4">
+                    <div class="col-5 align-self-center">
                         <img class="img-fluid" src="./assets/logo.svg" alt="logo" />
                     </div>
-                    <div class="row col-8">
-                        <div class="col-2">
+                    <div class="row col-7 align-self-center d-flex align-items-center">
+                        <div class="col-10 d-flex justify-content-end align-items-center p-0">
                             <img src="./assets/user-icon.svg" alt="user">
-                        </div>
-                        <div class="col-8 d-flex align-items-center justify-content-end">
                             <a href="#" class="btn btn-warning btn-sm font-weight-bold font-sm rounded-pill" tabindex="-1"
                                 role="button" aria-disabled="true">UNLIMITED FREE TRIAL ></a>
                         </div>
-                        <div class="col-2">
-                            <img class="img-fluid w-100" src="./assets/open-menu.svg" alt="menu">
+                        <div class="col-2 align-self-center">
+                            <img src="./assets/open-menu.svg" alt="menu">
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
+
+        <main>
+            <div class="row p-2">
+                <div class="col">
+                    <h4 class="gray small-title">TOP STORY</h4>
+                </div>
+                <div class="col-auto">
+                    <img class="img-fluid" src="assets/top-news.webp" alt="Top Story" />
+                </div>
+                <div class="col pt-2">
+                    <h3 class="news-title">
+                        Newsom May Rollback California's Reopening 
+                        Amid Rising COVID-19 Cases
+                    </h3>
+                    <p>
+                        The state has had two of its all-time highest number 
+                        of new cases two days in a row over the last week, 
+                        prompting strict measures from the governor.
+                    </p>
+                </div>
+            </div>
+        </main>
 
     </div>
 
