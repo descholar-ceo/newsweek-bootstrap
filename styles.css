@@ -71,6 +71,14 @@ body {
   color: white;
 }
 
+.subscribe-btn {
+  background-color: #ffe400;
+  border-radius: 24px;
+  font-size: 13px;
+  line-height: 14px;
+  padding: 4px 7px;
+}
+
 img[alt="user"] {
   width: 2rem;
   height: 2rem;
@@ -78,6 +86,11 @@ img[alt="user"] {
 
 img[alt="menu"] {
   height: 18px;
+}
+
+img[alt="logo"] {
+  width: 132px;
+  height: 20px;
 }
 
 .small-title {
@@ -288,4 +301,46 @@ input[type="email"] {
   fill: #666;
   width: 1.4rem;
   height: 1.4rem;
+}
+
+.edition-text {
+  margin-top: 6px;
+  margin-right: 15px;
+  color: #666;
+}
+
+.editions {
+  display: inline-block;
+}
+
+.links {
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  height: fit-content;
+  padding-right: 10px;
+  margin: 6px 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.links a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.links a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.links:last-child {
+  border-color: transparent;
+}
+
+@media screen and (max-width: 650px) {
+  .links {
+    border-color: transparent;
+  }
 }
