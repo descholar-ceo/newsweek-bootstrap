@@ -1,7 +1,8 @@
 :root {
   --gray: rgba(3, 3, 3, 0.4);
-  --black: #000;
-  --white: rgb(0, 0, 0);
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --red: rgb(255, 0, 0);
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
@@ -42,11 +43,11 @@ body {
 }
 
 .red-bg {
-  background-color: red;
+  background-color: var(--red);
 }
 
 .text-red {
-  color: rgb(255, 0, 0);
+  color: var(--red);
 }
 
 .font-sm {
@@ -119,17 +120,13 @@ img[alt="logo"] {
   font-weight: 400;
 }
 
-.img-container {
-  position: relative;
-}
-
 .text-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0.5rem 1rem;
-  color: rgb(255, 0, 0);
+  color: var(--red);
   font-family: var(--roboto);
   font-weight: 700;
 }
@@ -168,11 +165,6 @@ img[alt="logo"] {
 
 .text-gray-light {
   color: #555;
-}
-
-.vs-btn {
-  position: relative;
-  text-align: center;
 }
 
 .vs-btn p {
@@ -235,17 +227,13 @@ img[alt="logo"] {
 }
 
 .cover-link:hover {
-  color: rgb(255, 0, 0);
+  color: var(--red);
 }
 
 .cover-h3 a:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(255, 0, 0);
+  text-decoration-color: var(--red);
   color: var(--black);
-}
-
-.focus-btn-container {
-  position: relative;
 }
 
 .focus-btn {
@@ -261,12 +249,8 @@ img[alt="logo"] {
 .news-title a:hover,
 .region a:hover {
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: var(--red);
   color: var(--black);
-}
-
-.magazine-cover {
-  position: relative;
 }
 
 .magazine-cover:first-child {
