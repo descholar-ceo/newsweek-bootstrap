@@ -266,3 +266,26 @@ img[alt="menu"] {
   top: 26px;
   left: -12%;
 }
+
+input[type="email"] {
+  outline: none;
+  height: 38px;
+  border: 1px solid #e0e1e1;
+}
+
+.footer-logo {
+  width: 236px;
+  height: 36px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  color: #666;
+  font-size: 12px;
+}
+
+.footer-icon {
+  fill: #666;
+  width: 1.4rem;
+  height: 1.4rem;
+}
