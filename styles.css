@@ -28,6 +28,10 @@ body {
   background-color: red;
 }
 
+.text-red {
+  color: rgb(255, 0, 0);
+}
+
 .font-sm {
   font-size: 11px;
 }
@@ -179,7 +183,13 @@ img[alt="menu"] {
   width: 70px;
 }
 
-.signup-container span:first-child {
+.magazine-img{
+  height: 30px;
+  width: 40px;
+}
+
+.signup-container span:first-child,
+.in-magazine {
   width: fit-content;
   padding: 4px 0px;
 }
@@ -191,4 +201,27 @@ img[alt="menu"] {
 .cover-text {
   padding: 5px 7px;
   color: white;
+}
+
+.cover-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+.cover-h3 a {
+  line-height: 1px;
+}
+
+.cover-h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 0, 0);
+  color: var(--black);
+}
+
+.focus-btn-container {
+  position: relative;
+}
+
+.focus-btn {
+  position: absolute;
+  top: -2.6rem;
 }
