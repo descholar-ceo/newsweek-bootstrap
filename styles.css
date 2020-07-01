@@ -113,6 +113,10 @@ img[alt="menu"] {
   font-weight: 700;
 }
 
+.cover-h3 a {
+  line-height: 1px;
+}
+
 .h3 a:hover {
   color: #f92859;
 }
@@ -178,7 +182,7 @@ img[alt="menu"] {
   width: 70px;
 }
 
-.magazine-img{
+.magazine-img {
   height: 30px;
   width: 40px;
 }
@@ -186,7 +190,7 @@ img[alt="menu"] {
 .signup-container span:first-child,
 .in-magazine {
   width: fit-content;
-  padding: 4px 0px;
+  padding: 4px 0;
 }
 
 .signup-container span:last-child {
@@ -200,10 +204,6 @@ img[alt="menu"] {
 
 .cover-link:hover {
   color: rgb(255, 0, 0);
-}
-
-.cover-h3 a {
-  line-height: 1px;
 }
 
 .cover-h3 a:hover {
