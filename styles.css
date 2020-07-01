@@ -75,11 +75,6 @@ img[alt="menu"] {
   text-decoration: none;
 }
 
-.news-title a:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-
 .news-summary {
   font-size: 13px;
   color: #333;
@@ -224,4 +219,16 @@ img[alt="menu"] {
 .focus-btn {
   position: absolute;
   top: -2.6rem;
+}
+
+.r-small {
+  height: 100px;
+  width: 100px;
+}
+
+.news-title a:hover,
+.region a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: var(--black);
 }
