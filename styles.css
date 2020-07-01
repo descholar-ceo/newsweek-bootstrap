@@ -16,6 +16,18 @@ body {
   font-family: var(--roboto);
 }
 
+.bold-700 {
+  font-weight: 700;
+}
+
+.bold-400 {
+  font-weight: 400;
+}
+
+.red-bg {
+  background-color: red;
+}
+
 .font-sm {
   font-size: 11px;
 }
@@ -151,18 +163,32 @@ img[alt="menu"] {
 
 .signup-container input {
   outline: none;
+  padding-left: 5px;
+  border: 1px solid #ccc;
+}
+
+.signup-container input::placeholder {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .signgup-img {
   height: 30px;
-  width: 30px;
+  width: 70px;
 }
 
 .signup-container span:first-child {
-  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  padding: 4px 0px;
 }
 
-button[name="signup-btn"] {
-  background-color: rgb(255, 0, 0);
-  font-weight: bold;
+.signup-container span:last-child {
+  line-height: 1;
+}
+
+.cover-text {
+  padding: 5px 7px;
+  color: white;
 }
