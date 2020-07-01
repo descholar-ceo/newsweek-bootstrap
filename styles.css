@@ -146,6 +146,13 @@ img[alt="logo"] {
   line-height: 1px;
 }
 
+.links a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+
 .h3 a:hover {
   color: #f92859;
 }
@@ -303,13 +310,6 @@ input[type="email"] {
   margin: 6px 0;
   margin-right: 10px;
   cursor: pointer;
-}
-
-.links a {
-  color: rgb(102, 102, 102);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 100;
 }
 
 .links a:hover {
