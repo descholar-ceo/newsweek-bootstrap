@@ -14,8 +14,8 @@
 <body>
     <div class="container-lg p-0">
 
-        <header>
-            <nav class="navbar container-fluid red-bg">
+        <header class="bg-white">
+            <nav class="navbar container-fluid red-bg nav-1">
                 <div class="row d-flex flex-row justify-content-between">
                     <div class="d-none d-sm-none d-md-none d-lg-flex flex-lg-column col-lg-4 weather-img">
                         <a class="text-decoration-none text-white" href="#">
@@ -27,9 +27,9 @@
                         <p class="text-white mt-2">Thu, Jul 02, 2020</p>
                     </div>
 
-                    <div class="align-self-center col-5 col-lg-4">
+                    <a href="#" class="align-self-center col-5 col-lg-4 text-decoration-none">
                         <img class="img-fluid" src="./assets/logo.svg" alt="logo" />
-                    </div>
+                    </a>
                     
                     <div class="row col-7 col-md-7 col-sm-7 col-lg-4 align-self-center d-flex align-items-center mr-0">
                         <div class="col-10 col-lg-12 d-flex justify-content-end align-items-center p-0">
@@ -43,9 +43,41 @@
                     </div>
                 </div>
             </nav>
+            <nav class="nav-2 bg-white border-bottom">
+                <ul class="pt-2 d-none d-lg-flex flex-lg-row list-unstyled justify-content-between w-100">
+                    <li class="ml-3"><a class="text-decoration-none black bold-700" href="#">U.S.</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">World</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Business</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Tech & Science</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Culture</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Newsgeek</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Sport</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Sports</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Health</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">The Debate</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Vantage</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Weather</a></li>
+                    <li>
+                        <div class="d-flex flex-row">
+                            <input type="text" placeholder="Search">
+                            <img src="./assets/icon-search-glass.svg" alt="search" />
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav-3 row h-100 bg-white">
+                <ul class="ml-5 col-lg-6 d-none d-lg-flex flex-lg-row list-unstyled justify-content-between">
+                    <li><a class="text-decoration-none bold-700 black col-lg-2 mr-1" href="#">TRENDING</a></li>
+                    <li><a class="text-decoration-none bold-700 gray col-lg-2 mr-1" href="#">DONALD TRUMP</a></li>
+                    <li><a class="text-decoration-none bold-700 gray col-lg-2 mr-1" href="#">JOE BIDEN</a></li>
+                    <li><a class="text-decoration-none bold-700 gray col-lg-2 mr-1" href="#">CHINA</a></li>
+                    <li><a class="text-decoration-none bold-700 gray col-lg-2 mr-1" href="#">CORONAVIRUS</a></li>
+                    <li><a class="text-decoration-none bold-700 gray col-lg-2 mr-1" href="#">2020 ELECTION</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <main>
+        <main class="border-top">
 
             <div class="mt-4 row bg-white">
                 <div class="row p-2 border-bottom  col-sm-12 col-md-6 col-lg-4">

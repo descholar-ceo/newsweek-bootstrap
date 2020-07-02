@@ -17,6 +17,21 @@ body {
   font-family: var(--roboto);
 }
 
+.nav-2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-2 input {
+  border: none;
+  width: 100px;
+  outline: none;
+}
+
+.nav-2 {
+  width: 94%;
+}
+
 .h3 {
   line-height: 24px;
 }
@@ -172,7 +187,23 @@ img[alt="logo"] {
   font-weight: 100;
 }
 
-.h3 a:hover {
+@media screen and (min-width: 992px) {
+  .nav-1 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 85%, 0% 85%);
+  }
+}
+
+.nav-2 li {
+  padding-left: 1%;
+}
+
+.nav-3 li {
+  min-width: 111px;
+}
+
+.h3 a:hover,
+.nav-2 a:hover,
+.nav-3 a:hover {
   color: #f92859;
 }
 
