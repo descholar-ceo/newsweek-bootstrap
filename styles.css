@@ -276,10 +276,57 @@ img[alt="logo"] {
   left: -12%;
 }
 
+@media screen and (min-width: 768px) {
+  .magazine-cover:last-child {
+    top: 26px;
+    left: -40%;
+  }
+}
+
 input[type="email"] {
   outline: none;
   height: 38px;
   border: 1px solid #e0e1e1;
+}
+
+.subscribe-section-pics {
+  margin-left: 0;
+}
+
+.subscribe-section-text {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-section-pics {
+    margin-left: 70px;
+  }
+
+  .subscribe-section-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribe-section-text h3,
+  .subscribe-section-text h4 {
+    text-align: left;
+  }
+}
+
+.newsletter-section-pic {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter-section-pic {
+    display: block;
+  }
+
+  .newsletter-section-pic img {
+    width: 200px;
+  }
 }
 
 .footer-logo {
