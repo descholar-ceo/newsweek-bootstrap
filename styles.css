@@ -36,6 +36,21 @@ body {
   line-height: 24px;
 }
 
+@media screen and (min-width: 992px) {
+  .nav-1 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 85%, 0% 85%);
+  }
+}
+
+.nav-2 li {
+  padding-left: 1%;
+  width: fit-content;
+}
+
+.nav-3 li {
+  min-width: 111px;
+}
+
 .font-small {
   font-size: 16px;
 }
@@ -185,20 +200,6 @@ img[alt="logo"] {
   text-decoration: none;
   font-size: 14px;
   font-weight: 100;
-}
-
-@media screen and (min-width: 992px) {
-  .nav-1 {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 85%, 0% 85%);
-  }
-}
-
-.nav-2 li {
-  padding-left: 1%;
-}
-
-.nav-3 li {
-  min-width: 111px;
 }
 
 .h3 a:hover,
