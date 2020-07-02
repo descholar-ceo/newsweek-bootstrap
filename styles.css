@@ -2,7 +2,7 @@
   --gray: rgba(3, 3, 3, 0.4);
   --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
-  --red: rgb(255, 0, 0);
+  --red: #f72210;
   --roboto: 'Roboto Condensed', sans-serif;
 }
 
@@ -78,6 +78,11 @@ body {
   padding: 4px 7px;
 }
 
+.weather-img img {
+  height: 20px;
+  width: 20px;
+}
+
 img[alt="user"] {
   width: 2rem;
   height: 2rem;
@@ -90,6 +95,13 @@ img[alt="menu"] {
 img[alt="logo"] {
   width: 132px;
   height: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  img[alt="logo"] {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .small-title {

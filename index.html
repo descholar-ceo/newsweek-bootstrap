@@ -8,7 +8,7 @@
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <title>News week</title>
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
 <body>
@@ -16,17 +16,28 @@
 
         <header>
             <nav class="navbar container-fluid red-bg">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-5 align-self-center">
+                <div class="row d-flex flex-row justify-content-between">
+                    <div class="d-none d-sm-none d-md-none d-lg-flex flex-lg-column col-lg-4 weather-img">
+                        <a class="text-decoration-none text-white" href="#">
+                            <span>
+                                <img src="./assets/weather-cloud.png" alt="weather"/>
+                            </span>
+                            <span>24° Kigali, RW > </span>
+                        </a>
+                        <p class="text-white mt-2">Thu, Jul 02, 2020</p>
+                    </div>
+
+                    <div class="align-self-center col-5 col-lg-4">
                         <img class="img-fluid" src="./assets/logo.svg" alt="logo" />
                     </div>
-                    <div class="row col-7 align-self-center d-flex align-items-center mr-0">
-                        <div class="col-10 d-flex justify-content-end align-items-center p-0">
+                    
+                    <div class="row col-7 col-md-7 col-sm-7 col-lg-4 align-self-center d-flex align-items-center mr-0">
+                        <div class="col-10 col-lg-12 d-flex justify-content-end align-items-center p-0">
                             <img src="./assets/user-icon.svg" alt="user">
-                            <a href="#" class="btn bold-700 subscribe-btn" tabindex="-1" role="button"
+                            <a href="#" class="btn bold-700 w-75 subscribe-btn" tabindex="-1" role="button"
                                 aria-disabled="true">SUBSCRIBE ></a>
                         </div>
-                        <div class="col-2 align-self-center">
+                        <div class="col-2 align-self-center d-lg-none">
                             <img src="./assets/open-menu.svg" alt="menu">
                         </div>
                     </div>
