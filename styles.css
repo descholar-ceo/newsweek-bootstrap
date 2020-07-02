@@ -280,20 +280,22 @@ img[alt="logo"] {
 }
 
 .magazine-cover:first-child {
-  top: 10px;
+  width: 178px;
+  height: 228px;
 }
 
 .magazine-cover:last-child {
-  top: 26px;
-  left: -12%;
+  position: absolute;
+  right: -7px;
+  top: 13px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .magazine-cover:last-child {
     top: 26px;
     left: -40%;
   }
-}
+} */
 
 input[type="email"] {
   outline: none;
@@ -301,25 +303,23 @@ input[type="email"] {
   border: 1px solid #e0e1e1;
 }
 
-.subscribe-section-pics {
-  margin-left: 0;
-}
-
-.subscribe-section-text {
+/* .subscribe-section-text {
   width: 100%;
+} */
+
+.border-aaa {
+  border: 1px solid #ebebeb;
+  border-left-width: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .subscribe-section-pics {
-    margin-left: 70px;
-  }
-
-  .subscribe-section-text {
+  /* .subscribe-section-text {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
+    align-self: center;
+  } */
 
   .subscribe-section-text h3,
   .subscribe-section-text h4 {
@@ -334,10 +334,9 @@ input[type="email"] {
 @media screen and (min-width: 768px) {
   .newsletter-section-pic {
     display: block;
-  }
-
-  .newsletter-section-pic img {
-    width: 200px;
+    max-width: 191px;
+    width: 48%;
+    background: url("assets/newsletter-section-img.png") center center / cover no-repeat;
   }
 }
 
