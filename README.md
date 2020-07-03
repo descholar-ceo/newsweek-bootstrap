@@ -47,9 +47,10 @@ This project is deployed on netlify pages [live demo link](https://ecstatic-yalo
 * Twitter: [@descholar3](https://twitter.com/descholar3)
 * LinkedIn: [MUGIRASE Emmanuel](linkedin.com/in/mugirase-emmanuel-a90b49143)
 
-### 2. Muhammad Emmanuel
+### 2. Muhammad Umar
 * Github: [@mohammadumar28](https://github.com/mohammadumar28)
 * Twitter: [@Mohammadumar28](https://twitter.com/Mohammadumar28)
+* LinkedIn: [Mohammad Umar](https://www.linkedin.com/in/mohammadumar28/)
 
 ## Contributing
 There two ways of contributing to this project:
@@ -58,7 +59,7 @@ There two ways of contributing to this project:
 1. If you see something to improve or to correct, and you have a solution to that, follow the below steps to contribute:
     1. Fork this repository
     1. Clone it on your local computer by running `git clone https://github.com/your-username/newsweek-bootstrap.git` __Replace *your username* with the username you use on github__
-    1. Open the cloned repository which appears as a folder on your local computer with you favorite code editor
+    1. Open the cloned repository which appears as a folder on your local computer with your favorite code editor
     1. Create a separate branch off the *master barnch*,
     1. Write your codes which fix the issue you found
     1. Commit and push the branch you created
@@ -70,7 +71,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgment
 [Microverse](https://microvese.org)
 
-[newsweek](https://www.newsweek.com/)
-
-## License
-This project is open source MIT licensed
+[Newsweek](https://www.newsweek.com/)
