@@ -38,7 +38,14 @@ body {
 
 @media screen and (min-width: 992px) {
   .nav-1 {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 95% 100%, 94% 85%, 0% 85%);
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 100%,
+      95% 100%,
+      94% 85%,
+      0% 85%
+      );
   }
 }
 
