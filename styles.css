@@ -51,12 +51,13 @@ body {
 }
 
 .nav-2 li {
-  padding-left: 1%;
+  padding-left: 10px;
+  padding-right: 6px;
   width: fit-content;
 }
 
 .nav-3 li {
-  min-width: 111px;
+  padding-left: 20px;
 }
 
 .font-small {
@@ -114,6 +115,7 @@ body {
   font-size: 13px;
   line-height: 14px;
   padding: 4px 7px;
+  max-width: 150px;
 }
 
 .weather-img img {
