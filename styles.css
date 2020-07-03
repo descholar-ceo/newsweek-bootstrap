@@ -18,13 +18,13 @@ body {
 }
 
 .nav-2 img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .nav-2 input {
   border: none;
-  width: 100px;
+  width: 60px;
   outline: none;
 }
 
@@ -366,6 +366,10 @@ input[type="email"] {
 }
 
 @media screen and (min-width: 768px) {
+  .login-nav-div span {
+cursor: pointer;
+  }
+
   .text-overlay {
     font-size: 16px;
     padding: 0.2rem 0.7rem;
@@ -378,6 +382,13 @@ input[type="email"] {
 
   .links {
     border-right: 1px solid #ccc;
+  }
+
+  .newsletter-section-pic {
+    display: block;
+    max-width: 191px;
+    width: 48%;
+    background: url("assets/newsletter-section-img.png") center center / cover no-repeat;
   }
 }
 
@@ -406,12 +417,5 @@ input[type="email"] {
   .subscribe-section-text h3,
   .subscribe-section-text h4 {
     text-align: left;
-  }
-
-  .newsletter-section-pic {
-    display: block;
-    max-width: 191px;
-    width: 48%;
-    background: url("assets/newsletter-section-img.png") center center / cover no-repeat;
   }
 }
