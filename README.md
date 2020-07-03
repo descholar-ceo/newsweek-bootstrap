@@ -1,6 +1,4 @@
 # Newsweek.com Replica
-
-# city-info
 ![Linters](https://github.com/descholar-ceo/newsweek-bootstrap/workflows/Linters/badge.svg)
 
 ## Description
