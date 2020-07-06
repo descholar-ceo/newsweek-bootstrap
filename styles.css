@@ -71,7 +71,8 @@ body {
   background-color: var(--red);
 }
 
-.text-red {
+.text-red,
+cover-link:hover {
   color: var(--red);
 }
 
@@ -135,11 +136,7 @@ img[alt="logo"] {
   font-weight: 700;
 }
 
-.news-title a {
-  color: var(--black);
-  text-decoration: none;
-}
-
+.news-title a,
 .h3 a {
   color: var(--black);
   text-decoration: none;
@@ -265,10 +262,6 @@ img[alt="logo"] {
 .cover-text {
   padding: 5px 7px;
   color: white;
-}
-
-.cover-link:hover {
-  color: var(--red);
 }
 
 .cover-h3 a:hover {
