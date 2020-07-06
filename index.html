@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-browser-tab-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+</head>
+
+<body>
+    <div class="container-xl mx-auto p-0">
+
+        <header class="bg-white">
+            <nav class="navbar container-fluid red-bg nav-1 pb-3">
+                <div class="row d-flex flex-row justify-content-between">
+                    <div class="d-none d-sm-none d-md-none d-lg-flex flex-lg-column col-lg-4 weather-img">
+                        <a class="text-decoration-none text-white" href="#">
+                            <span>
+                                <img src="./assets/weather-cloud.png" alt="weather"/>
+                            </span>
+                            <span>24° Kigali, RW > </span>
+                        </a>
+                        <p class="text-white mt-2">Thu, Jul 02, 2020</p>
+                    </div>
+
+                    <a href="#" class="align-self-center col-5 col-lg-4 text-decoration-none">
+                        <img class="img-fluid" src="./assets/logo.svg" alt="logo" />
+                    </a>
+                    
+                    <div class="row col-7 col-md-7 col-sm-7 col-lg-4 align-self-center d-flex align-items-center mr-0">
+                        <div class="col-10 col-lg-12 d-flex justify-content-end align-items-center p-0 login-nav-div">
+                            <img class="d-inline d-md-none" src="./assets/user-icon.svg" alt="user">
+                            <span class="d-none d-md-inline text-white bold-700 mr-3">LOGIN</span>
+                            <a href="#" class="btn bold-700 w-75 subscribe-btn" tabindex="-1" role="button"
+                                aria-disabled="true">SUBSCRIBE ></a>
+                        </div>
+                        <div class="col-2 align-self-center d-lg-none">
+                            <img src="./assets/open-menu.svg" alt="menu">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="nav-2 bg-white">
+                <ul class="d-none d-lg-flex flex-lg-row list-unstyled justify-content-between align-items-center">
+                    <li><a class="text-decoration-none black bold-700" href="#">U.S.</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">World</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Business</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Tech & Science</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Culture</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Newsgeek</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Sport</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Sports</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Health</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">The Debate</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Vantage</a></li>
+                    <li class="border-left"><a class="text-decoration-none black bold-700" href="#">Weather</a></li>
+                    <li>
+                        <div class="d-flex flex-row">
+                            <input type="text" placeholder="Search">
+                            <img src="./assets/icon-search-glass.svg" alt="search" />
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav-3 bg-white d-flex pl-2 border-top">
+                <ul class="col-lg-12 d-none d-lg-flex flex-lg-row list-unstyled align-items-center py-2 mb-0">
+                    <li><a class="text-decoration-none bold-700 black" href="#">TRENDING</a></li>
+                    <li><a class="text-decoration-none bold-700 gray" href="#">DONALD TRUMP</a></li>
+                    <li><a class="text-decoration-none bold-700 gray" href="#">JOE BIDEN</a></li>
+                    <li><a class="text-decoration-none bold-700 gray" href="#">CHINA</a></li>
+                    <li><a class="text-decoration-none bold-700 gray" href="#">CORONAVIRUS</a></li>
+                    <li><a class="text-decoration-none bold-700 gray" href="#">2020 ELECTION</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="border-top">
+
+            <div class="row bg-white">
+                <div class="p-2 border-bottom col-sm-12 col-md-6 col-lg-4 order-1 order-sm-2 order-md-1">
+                    <div class="col-12">
+                        <h4 class="gray small-title font-small">FEATURED STORIES</h4>
+                    </div>
+                    <div class="col-12 relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="w-100" src="assets/top-news-2.webp" alt="Top Story" />
+                            <span class="text-overlay">U.S.</span>
+                        </a>
+                    </div>
+                    <div class="col-12 pt-2 border-bottom">
+                        <h3 class="news-title">
+                            <a href="#">
+                                SCOTUS Strikes Down Louisiana Abortion Law, Roberts Sides with Liberals
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            It's the first major abortion ruling for the high court under its new majority of members
+                            who have track records opposing abortion rights and a potentially defining moment in
+                            President Donald Trump's presidency.
+                        </p>
+                    </div>
+
+                    <div class="col-12 relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/top-news-3.webp" alt="Top Story" />
+                            <span class="text-overlay">U.S.</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Reddit Bans Some of the Largest Communities Supporting Donald Trump
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            "I have to admit that I've struggled with balancing my values as an American,
+                            and around free speech and free expression."
+                        </p>
+                    </div>
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/top-news-4.webp" alt="Top Story" />
+                            <span class="text-overlay">U.S.</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                St. Louis Man Who Aimed AR-15 at Protesters Says They Threatened His Family
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            St. Louis attorney Mark McCloskey said the protesters who were angered by Mayor Lyda
+                            Krewson's "doxxing"
+                            of those demanding the police be defunded, threatened to kill him and his family.
+                        </p>
+                    </div>
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/top-news-5.webp" alt="Top Story" />
+                            <span class="text-overlay">WORLD</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                India Bans TikTok and 58 Other Chinese Apps Amid Escalating Tensions
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            The government said the apps were "engaged in activities which is prejudicial
+                            to sovereignty and integrity of India."
+                        </p>
+                    </div>
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/top-news-6.webp" alt="Top Story" />
+                            <span class="text-overlay">CULTURE</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Dave Portnoy Says 'Cancel Culture' Will Only Make Barstool Sports Stronger
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            Portnoy is drawing a lot of criticism online after old videos that feature him making
+                            racially insensitive jokes resurfaced.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- TOP Story Section -->
+
+                <div class="row p-2 border-bottom bg-white col-sm-12 col-md-6 col-lg-5 pt-0 order-2 order-sm-1 order-md-2">
+                    <div class="col-12">
+                        <div class="mt-2">
+                            <h4 class="gray small-title font-small">TOP STORY</h4>
+                        </div>
+                        <div class="col-auto relative pl-0 pr-0 w-100">
+                            <a href="#">
+                                <img class="img-fluid w-100" src="assets/top-news.webp" alt="Top Story" />
+                                <span class="text-overlay">U.S.</span>
+                            </a>
+                        </div>
+                        <div class="col pt-2">
+                            <h3 class="news-title">
+                                <a href="#">
+                                    Newsom May Rollback California's Reopening
+                                    Amid Rising COVID-19 cases
+                                </a>
+                            </h3>
+                            <p class="news-summary">
+                                The state has had two of its all-time highest number
+                                of new cases two days in a row over the last week,
+                                prompting strict measures from the governor.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="mt-2 bg-white">
+                            <div class="pt-3 col-md-12">
+                                <h4 class="gray small-title">MY TURN</h4>
+                            </div>
+                            <div class="d-md-flex flex-md-row justify-content-md-between pr-md-3">
+                            
+                                <div class=" col-sm-12 col-md-4 mt-3 mr-1 ml-1">
+                                    <img class="img-fluid w-100" src="assets/turn-1.webp" alt="other news" />
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">'I Met My Boyfriend on a Video Date During Lockdown'
+                                    </h3>
+                                </div>
+                            
+                                <div class=" col-sm-12 col-md-4 mt-3 mr-1 ml-1">
+                                    <img class="img-fluid w-100" src="assets/turn-2.webp" alt="other news" />
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">'I Lost Nearly 300lbs in Less Than a Year'</h3>
+                                </div>
+                            
+                                <div class=" col-sm-12 col-md-4 mt-3 mr-1 ml-1">
+                                    <img class="img-fluid w-100" src="assets/turn-3.webp" alt="other news" />
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">'I Spent 11 Years In Prison—And Produced a Rap Album at
+                                        San
+                                        Quentin'</h3>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="mt-2 bg-white">
+                            <div class="pt-3 col-md-12">
+                                <h4 class="gray small-title">CULTURE & TRAVEL</h4>
+                            </div>
+        
+                            <div class="d-md-flex flex-md-row justify-content-md-between pr-md-3">
+                                <div class=" col-sm-12 mt-3 mr-1 ml-1 col-md-4">
+                                    <div class="relative">
+                                        <img class="img-fluid w-100" src="assets/culture-1.webp" alt="other news" />
+                                        <span class="text-dark text-overlay-turn">TRAVEL</span>
+                                    </div>
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">A Look at Cultural Masks Around the World</h3>
+                                </div>
+                                <div class=" col-sm-12 mt-3 mr-1 ml-1 col-md-4">
+                                    <div class="relative">
+                                        <img class="img-fluid w-100" src="assets/culture-2.webp" alt="other news" />
+                                        <span class="text-dark text-overlay-turn">BLACK LIVES MATTER</span>
+                                    </div>
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">The Art of Protest: Artists Create Images in Support of
+                                        Black
+                                        Lives Matter
+                                    </h3>
+                                </div>
+                                <div class=" col-sm-12 mt-3 mr-1 ml-1 col-md-4">
+                                    <div class="relative">
+                                        <img class="img-fluid w-100" src="assets/culture-3.webp" alt="other news" />
+                                        <span class="text-dark text-overlay-turn">ITALY</span>
+                                    </div>
+                                    <h3 class="h3 bold-700 font-small pt-2 gray">Coronavirus-Free Town in Italy Worries About European
+                                        Visitors
+                                        in Reopening
+                                    </h3>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+
+                    <!-- MORE STORIES-->
+                    <div class="mt-0 col-12 bg-white row pl-2 pr-2">
+                        <div class="">
+                            <h4 class="gray small-title">MORE STORIES</h4>
+                        </div>
+                        <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-1.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Joe Biden's Lead Over Trump Falls By Four Points Over Two
+                                    Weeks: Poll
+                                </h3>
+                                <p class="news-summary">The former vice president was still 10 points ahead of the president
+                                    among all U.S. adults polled by Optimus last week.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-2.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Fauci Says Anti-Vax Put U.S. At Risk As CDC Warns Too Much
+                                    Virus to
+                                    Control</h3>
+                                <p class="news-summary">Vaccine hesitancy may stand in the way of herd immunity, Fauci said.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-3.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Guillotine Placed Outside Jeff Bezos' D.C. Home by
+                                    Anti-Amazon
+                                    Protesters</h3>
+                                <p class="news-summary">"Amazon works directly with police to surveil us, stoking racist fears
+                                    in the name of profit," the protesters' claimed.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-4.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">GOP Senator Seeks Amendment Allowing the U.S. to Buy Russian
+                                    Defense
+                                    System</h3>
+                                <p class="news-summary">An amendment proposed by the Senate majority whip would allow the U.S.
+                                    Army to buy Turkey's Russian-made S-400 defense system.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-5.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Most People Still Awaiting Stimulus Checks Face Delay to
+                                    2021: Report
+                                </h3>
+                                <p class="news-summary">While millions of Economic Impact Payments have been made, some people
+                                    are still awaiting the financial boost and could be until next year.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-6.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Detroit Police Who Drove Through Crowd Reacted Appropriately,
+                                    Chief
+                                    Says</h3>
+                                <p class="news-summary">Chief James Craig said his officers were worried about their safety
+                                    after the crowd started "exhibiting violent behavior."</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-7.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">An Italian Pharmacist-Mayor's Lesson from Testing His Town to
+                                    Save a
+                                    Region</h3>
+                                <p class="news-summary">Home to Europe's first COVID-19 death, Vò and its mayor Giuliano Martini
+                                    took part in a radical testing campaign not seen anywhere outside China. But the ghosts of
+                                    the crises persist.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-8.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Aurora Police Investigated Over Photos Taken at Elijah
+                                    McClain
+                                    Memorial</h3>
+                                <p class="news-summary">Chief of Police Vanessa Wilson said photographs from the investigation
+                                    will be made public following its conclusion.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-9.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Citing Safety, Hong Kong Democracy Groups Close Facing China
+                                    Security
+                                    Law</h3>
+                                <p class="news-summary">Chinese lawmakers approved the controversial national security law—which
+                                    will effectively criminalize anti-government dissent in Hong Kong—on Tuesday.</p>
+                            </div>
+                        </div>
+                        <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                            <div>
+                                <img src="assets/story-10.webp" alt="news" />
+                            </div>
+                            <div class="pl-2">
+                                <h3 class="h3 bold-700 font-small">Atlanta Hawks Offer Arena to Help City Plagued by Voter
+                                    Suppression
+                                    Claims</h3>
+                                <p class="news-summary">The Hawks will turn State Farm Arena into a huge voting station for
+                                    Georgia's runoff primary in August and the presidential elections in November.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Debate Section -->
+
+                <div class=" col-sm-12 col-md-12 col-lg-3 order-3 order-sm-3 order-md-3">
+                    <div class="mt-3 p-3 bg-white relative pt-0">
+                        <div>
+                            <h4 class="gray small-title  font-small">THE DEBATE</h4>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 pt-3 debate-section-top">
+                            <img class="profile-img mt-3" src="assets/debate.webp" alt="debate profiles" />
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    Empty Cradles Means a Bleaker Future
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> LYMAN STONE AND W. BRADFORD WILCOX</span>
+                            </h3>
+                        </div>
+                        <div class="relative text-center vs-btn d-flex justify-content-center rounded-circle mb-4">
+                            <p>VS</p>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 debate-section-bottom justify-content-between">
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    Falling Birthrates Are No Big Deal
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> MARINA ADSHADE</span>
+                            </h3>
+                            <img class="profile-img mt-3" src="assets/debate-2.webp" alt="debate profiles" />
+                        </div>
+                    </div>
+        
+                    <div class="mt-3 p-3 bg-white">
+                        <div class="">
+                            <h4 class="gray small-title">OPINION</h4>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-1.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    Trump Failed to Deliver for Evangelicals in Supreme Court Abortion Case
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> JOSHUA C. WILSON</span>
+                            </h3>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-2.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    Responding to Russian Bounties on U.S. Troops in Afghanistan
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> JAVED ALI AND JOSH KIRSHNER</span>
+                            </h3>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-3.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    The Propaganda Media's Polling Offensive
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> NEWT GINGRICH</span>
+                            </h3>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-4.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    The Jewish Case for Abortion Rights
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> SHEILA KATZ AND DANYA RUTTENBERG</span>
+                            </h3>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-5.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    Trump's Re-Election Playbook in 25 Steps
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> ROBERT REICH</span>
+                            </h3>
+                        </div>
+                        <div class="d-flex align-items-center pb-3 border-bottom">
+                            <a href="#">
+                                <img class="profile-img mt-3" src="assets/opinion-6.webp" alt="debate profiles"
+                                    title="Joshua C. Wilson" />
+                            </a>
+                            <h3 class="pl-2 align-self-end h3 bold-700 font-small">
+                                <a href="#">
+                                    The Conservative Argument for Coronavirus Masks
+                                </a><br />
+                                <span><span class="text-gray-light">BY</span> JASON RANTZ</span>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="bg-white row d-flex flex-row justify-content-center border-bottom pb-3">
+                        <div class="signup-container">
+                            <div class="d-flex pb-2 align-items-center">
+                                <span class="d-block mr-1 red-bg">
+                                    <img class="img-fluid signgup-img" src="./assets/newsweek-n-logo.svg"
+                                        alt="newsweek_n_logo">
+                                </span>
+                                <span class="d-block pl-2">
+                                    START YOUR DAY WITH OUR TOP 5 ARTICLES
+                                </span>
+                            </div>
+                            <form class="p-3 pt-2">
+                                <div class="pb-1">
+                                    <input class="w-100" type="email" placeholder="Email address">
+                                </div>
+                                <div>
+                                    <button name="signup-btn" type="button"
+                                        class="text-white w-100 btn red-bg bold-400">FREE SIGN UP > </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-2 row bg-white border-bottom mb-5 pb-2">
+                <div class="mx-auto w-auto">
+                    <div class="d-flex align-items-center py-3">
+                        <span class="d-block mr-1 red-bg">
+                            <img class="img-fluid magazine-img" src="./assets/newsweek-n-logo.svg"
+                                alt="newsweek_n_logo">
+                        </span>
+                        <span class="d-block pl-2 bold-700">
+                            IN THE MAGAZINE
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="relative">
+                            <a href="#">
+                                <img class="img-fluid w-100" src="assets/magazine.webp" alt="Newsweek Magazine" />
+                                <span class="text-overlay">JULY 03 ISSUE</span>
+                            </a>
+                        </div>
+                        <div>
+                            <h3 class="text-center pt-2 h3 bold-700 font-small">SEE ALL FEATURES ></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-1.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">COVER</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">U.S.</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Police Reform Alone Won't Stop Another George Floyd from Being Murdered
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-2.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">FEATURES</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">OPINION</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Check-the-Box Training Won't Work. Communities Of Color Must Drive Policing
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-4.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">PERISCOPE</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">BUSINESS</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Mark Cuban Talks Race and Robotics
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-5.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">PERISCOPE</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">CULTURE</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Governors Can't Pick and Choose Constitutional Rights
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-6.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">DOWNTIME</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">CULTURE</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Khruangbin's New Album Mordechai
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-7.webp" alt="cover-pic"
+                                    title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2">
+                            <span class="cover-text d-inline-block red-bg bold-700">DOWNTIME</span>
+                            <a href="#" class="bold-700 text-red cover-link text-decoration-none ml-2">CULTURE</a>
+                        </div>
+                        <div>
+                            <h3 class="h3 bold-700 font-small lh-1 cover-h3 pt-2">
+                                <a href="#">
+                                    Matty Healy On The 1975's New Album 'Notes On A Conditional Form'
+                                </a>
+                            </h3>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div>
+                            <a href="#">
+                                <img class="w-100" src="assets/cover-8.jpg" alt="cover-pic" title="Wesley Lowery feature" />
+                            </a>
+                        </div>
+                        <div class="mt-2 relative">
+                            <span class="cover-text d-inline-block red-bg bold-700 focus-btn">IN FOCUS</span>
+                            <a href="#" class="bold-700 black cover-link text-decoration-none ml-2">FREEDOM</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 row p-2 bg-white">
+                <div class="col-12 text-center">
+                    <div class="d-flex align-items-center justify-content-center py-3">
+                        <span class="d-block mr-1 red-bg">
+                            <img class="img-fluid magazine-img" src="./assets/newsweek-n-logo.svg"
+                                alt="newsweek_n_logo">
+                        </span>
+                        <span class="d-block pl-2 bold-700">
+                            EDITOR'S PICK
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-1.webp" alt="Top Story" />
+                            <span class="text-overlay">NEWS</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2 border-bottom">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Texas Coronavirus Outbreak Takes 'Dangerous Turn,' 5,000 New Cases Each Day
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            Daily hospitalizations in the state also climbed past 5,000 for three consecutive days from June
+                            26 to 28.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-2.webp" alt="Top Story" />
+                            <span class="text-overlay">WORLD</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Firm in Russian Arctic Oil Spill Probe Admits Pumping Waste Into Tundra
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            Nornickel is already being investigated for a 20,000-metric ton oil spill last month that
+                            activists say has destroyed sea life near Norilsk.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-3.webp" alt="Top Story" />
+                            <span class="text-overlay">TECH & SCIENCE</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                World's Biggest Shark Has Teeth on Its Eyeballs, Scientists Discover
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            Researchers find their eyes are covered with "dermal denticles" that help protect these organs.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-4.webp" alt="Top Story" />
+                            <span class="text-overlay">WORLD</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                China's Mask Diplomacy Fails to Improve Europe's Opinion of Beijing
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            A little more than 60 percent of French people said they had a worse view of China amid the
+                            ongoing coronavirus pandemic.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-5.webp" alt="Top Story" />
+                            <span class="text-overlay">TECH & SCIENCE</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Asteroid Hit Created Conditions Required to Destroy All Dinosaur Habitats
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            Latest study supports the idea that the asteroid impact 66 million years ago was the main driver
+                            of dinosaur extinction,
+                            not intense volcanic activity as some have suggested.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-6.webp" alt="Top Story" />
+                            <span class="text-overlay">U.S.</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Who is Marsha P. Johnson? Google Doodle Celebrates Trans-Rights Activist
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            On the last day of Pride Month 2020, Google Doodle celebrates LGBTQ+ rights pioneer Marsha P.
+                            Johnson
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-7.webp" alt="Top Story" />
+                            <span class="text-overlay">CULTURE</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                'I'll Be Gone in the Dark': Doc Makers React to Killer Pleading Guilty
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            "I'll Be Gone in the Dark" began on HBO the day before its subject the Golden State Killer
+                            Joseph James DeAngelo Jr. pled guilty to multiple rapes and murders.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="col-auto relative pl-0 pr-0">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/editor-8.webp" alt="Top Story" />
+                            <span class="text-overlay">NEWS</span>
+                        </a>
+                    </div>
+                    <div class="col pt-2">
+                        <h3 class="news-title">
+                            <a href="#">
+                                Dazzling Double Rainbow Appears Over NYC on Pride Parade 50th Anniversary
+                            </a>
+                        </h3>
+                        <p class="news-summary">
+                            New Yorkers documented the heartwarming scene on social media.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">U.S.</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-1.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">Alabama College Students Attended Parties Despite Knowing They Had COVID-19</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-2.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">Harvey Weinstein Victims Receive $18.9 Million Settlement For Abuse</a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-1.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Texas Bar Owner Changes 'Racist' Dress Code, Which Banned Basketball
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-2.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">Colorado Latest State to Close Bars and Nightclubs Due to Coronavirus</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-3.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">'Da Vinci Code' Author Dan Brown Had Affairs, Hid Millions, Ex-Wife says</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">World</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-3.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">
+                                Text of Hong Kong Law Says Dissidents Face Trials in China, Life Sentences
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-4.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">
+                            Girl, 4, Dies in Hospital After Being Found Injured in London
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-4.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Guatemala Places Limit on U.S. Deportations Because of COVID-19 Spread
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-5.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Every U.N. Security Council Member but U.S. Supports Iran Deal at Meeting
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-6.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Mitch McConnell Flouts Trump, Again Says Russia Should Not Be Allowed in G7
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">Business</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-5.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">
+                                Extra $600 Unemployment Benefits to End 1 Week Early, Labor Department Says
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-6.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">In Good Company: 50 U.S. Businesses That Stood Out During the Pandemic</a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-7.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Trader Joe's Shopper Kicked Out for Refusing to Wear Mask, Blames Democrats
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-8.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Mark Zuckerberg Drops Out of Top 3 Richest People Amid Facebook Ad Boycott
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-9.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Several Airlines Booking to Full Capacity Prompt Concerns Over COVID-19
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">Tech & Science</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-7.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">An Extremely Bright Star Has 'Disappeared' And Scientists Aren't Sure Why</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-8.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">World's Biggest Shark Has Teeth on Its Eyeballs, Scientists Discover</a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-10.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Facebook Ad Boycott May Be Tip of Iceberg for Zuckerberg's Social Network
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-11.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    We Have Helped Make the South Pole One of Earth's Fastest Warming Places
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-12.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Guillotine Placed Outside Jeff Bezos' D.C. Home by Anti-Amazon Protesters
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">Culture</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-9.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">
+                                'Ozark' Season 4 Has Been Confirmed by Netflix
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-10.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">
+                            'Unsolved Mysteries' on Netflix has a Big Difference From the Original
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-13.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    What Lucas Grabeel Said About His 'High School Muscial' Character Being Gay
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-14.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    August Alsina Says Relationship With Jada Pinkett Smith Was OK With Will
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-15.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    'America's Got Talent' 2020 Recap and Results: Auditions Night 6
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top row bg-white border-top">
+                <h3 class="text-red bold-700 mt-3">Sports</h3>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 mt-3 region">
+                        <a href="#">
+                            <img title="region image" class="img-fluid w-100" src="assets/region-11.webp"
+                                alt="region based news" />
+                        </a>
+                        <h3 class="h3 bold-700 font-small pt-2">
+                            <a href="#">
+                                Rudy Gobert and Donovan Mitchell Shut Down Anti-BLM Utah Jazz Fan
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3 region">
+                    <a href="#">
+                        <img title="region image" class="img-fluid w-100" src="assets/region-12.webp"
+                            alt="region based news" />
+                    </a>
+                    <h3 class="h3 bold-700 font-small pt-2">
+                        <a href="#">
+                            Mark Cuban Says NBA Players Will be Safe in Orlando Despite COVID-19 Surge
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class=" col-sm-12 d-flex pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-16.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Which Players Have Opted Out of MLB Season Restart?
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-17.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Ron Rivera Dismisses Redskins Name Change as 'Discussion for Another
+                                    Time'
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 d-flex border-top pb-3 pt-3 border-top">
+                        <a href="#">
+                            <img title="region image" class="r-small" src="assets/rsmall-18.webp" alt="news" />
+                        </a>
+                        <div class="pl-2">
+                            <h3 class="h3 bold-700 font-small">
+                                <a href="#">
+                                    Atlanta Hawks Offer Arena to Help City Plagued by Voter Suppression
+                                    Claims
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 row bg-white p-2 border-bottom mb-5">
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <div class="col-12">
+                        <h3 class="h3 bold-700 font-small text-red">SUBSCRIBE</h3>
+                    </div>
+                    <div class="col-12 row light-gray-bg p-4">
+                        <div class="relative col-4">
+                            <img class="magazine-cover" src="assets/magazine-2.jpg" alt="Magazine">
+                            <img class="magazine-cover" src="assets/magazine-1.jpg" alt="Magazine">
+                        </div>
+                        <div class="col-8 subscribe-section-text pl-5 align-self-center">
+                            <h3 class="h3 bold-400">
+                                In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                            </h3>
+                            <h4 class="h3 font-small bold-100 gray">
+                                All Access + Weekly Delivery.
+                                Choose A Membership That's Perfect for You!
+                            </h4>
+                            <button type="button" class="btn bold-700 red-bg text-white">
+                                SUBSCRIBE &gt;
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-12">
+                        <h3 class="h3 bold-700 font-small text-red">NEWSLETTER</h3>
+                    </div>
+                    <div class="light-gray-bg p-0 col-12 d-flex justify-content-center bg-white">
+                        <div class="newsletter-section-pic">
+                        </div>
+                        <div class="text-center p-3 w-100 border-aaa">
+                            <h3 class="h3 bold-700 font-small">The Starting 5</h3>
+                            <h4 class="bold-100 gray font-small">See why nearly a quarter of a million subscribers begin
+                                their day with the Starting 5.</h4>
+                            <div class="mb-3">
+                                <input name="email" type="email" class="w-100 pl-2" placeholder="Email Address">
+                            </div>
+                            <div>
+                                <button type="button" class="w-100 btn bold-700 red-bg text-white">
+                                    FREE SIGN UP &gt;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row mb-4 p-3 bg-white">
+                
+                <div class="d-md-flex flex-md-row justify-content-md-between">
+
+                    <div class="d-md-flex flex-md-row align-items-end">
+                        <a class="d-block" href="#">
+                            <img class="footer-logo" src="./assets/logo-red.svg" alt="newsweek logo red">
+                        </a>
+                        <p class="copyright">© 2020 NEWSWEEK</p>
+                    </div>
+
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="footer-icon" src="./assets/facebook.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="footer-icon" src="./assets/twitter.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="footer-icon" src="./assets/instagram.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="footer-icon" src="./assets/tumblr.svg" alt="" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img class="footer-icon" src="./assets/linkedin.svg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr />
+                <div class="px-0">
+                    <span class="edition-text">Editions:</span>
+                    <ul class="editions d-inline-block p-0 mb-0">
+                        <li class="links">
+                            <a href="#">
+                                U.S. Edition
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                日本
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Pakistan
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Polska
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                România
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="editions d-inline-block p-0">
+                        <li class="links">
+                            <a href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Corrections
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Editorial Guidelines
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Advertise
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Copyright
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Cookie Policy
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Terms of Sale
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Archive
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Announcements
+                            </a>
+                        </li>
+                        <li class="links">
+                            <a href="#">
+                                Consent preferences
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
